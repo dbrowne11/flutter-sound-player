@@ -1,0 +1,36 @@
+name: soundplayer
+description: A new Flutter project.
+version: 0.0.1
+homepage: https://github.com/dbrowne11/flutter-sound-player.git
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: com.example.soundplayer
+        pluginClass: SoundplayerPlugin
+
+
+  # To add assets to your plugin package, add an assets section, like this:
+  assets:
+    - lib/assets/
+
