@@ -1,5 +1,5 @@
 name: soundplayer
-description: A new Flutter project.
+description: A minimal implementation of androids SoundPool for flutter
 version: 0.0.1
 homepage: https://github.com/dbrowne11/flutter-sound-player.git
 
